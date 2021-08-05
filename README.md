@@ -4,6 +4,7 @@ Optimizing a Spark SQL query
 The ```data``` directory including ```answers``` and ```questions``` folders containing parquet files must first be loaded into HDFS.
 
 As viewed within the Spark UI, the original Spark SQL query contained within this exercise results in a Spark job with 10 separate jobs.  
+
 Among those jobs there are two seperate broadcast exchanges, the costliest parts of this query and that which can be further optimized.  
 
 
